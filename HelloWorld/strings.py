@@ -9,3 +9,7 @@ print(greeting + name)
 
 # If we want a space, we can add that too
 print(greeting + " " + name)
+
+
+
+print(parrot[-1])
