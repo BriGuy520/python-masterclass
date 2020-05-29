@@ -11,7 +11,6 @@ print(greeting + name)
 print(greeting + " " + name)
 
 
-<<<<<<< HEAD
 parrot = "Norwegian Blue"
 
 print(parrot[-11])
@@ -20,7 +19,6 @@ print(parrot[-5])
 print(parrot[-11])
 print(parrot[-8])
 print(parrot[-6])
-=======
 age = 24
 print(age)
 
@@ -28,7 +26,13 @@ print(type(greeting))
 print(type(age))
 
 age_in_words = "2 years"
-print(name + " is " + age  + " years old.")
+# print(name + " is " + age  + " years old.")
 print(type(age_in_words))
 
->>>>>>> 543108d414b9eb0986df44d1c5fad9af357c3ea4
+
+print(parrot[0:6]) #Norweg
+print(parrot[1:7])
+print(parrot[3:5])
+print(parrot[0:9])
+print(parrot[:9])
+
