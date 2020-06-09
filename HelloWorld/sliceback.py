@@ -16,3 +16,19 @@ print(letters[-4:])
 print(letters[-1:])
 print(letters[:1])
 print(letters[0])
+
+str1 = "unique lab"
+
+
+print("=======================")
+print(str1[3:6:1])
+print(str1[::5])
+print(str1[::6])
+print(str1[5:10:2])
+
+
+print("===================")
+
+decode = "there is a secret message inside of this message. Can you find it?"
+
+print(decode[:2:2])
