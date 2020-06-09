@@ -10,27 +10,15 @@ print(greeting + name)
 # If we want a space, we can add that too
 print(greeting + " " + name)
 
+parrot = "Norweigen Blue"
 
-<<<<<<< HEAD
 age = 30
-=======
-parrot = "Norwegian Blue"
-
-print(parrot[-11])
-print(parrot[-10])
-print(parrot[-5])
-print(parrot[-11])
-print(parrot[-8])
-print(parrot[-6])
-age = 24
->>>>>>> e3895048c19f675f6e5a1a6f1b4098a3f8c9c3ac
 print(age)
 
 print(type(greeting))
 print(type(age))
 
 age_in_words = "2 years"
-<<<<<<< HEAD
 print(name + f" is {age} years old.")
 print(type(age_in_words))
 
@@ -40,7 +28,6 @@ pi = 22 / 7
 
 print(f"Pi is approximately {pi:12.50f}")
 
-=======
 # print(name + " is " + age  + " years old.")
 print(type(age_in_words))
 
@@ -84,4 +71,3 @@ print(seperators)
 
 values = "".join(char if char not in seperators else " " for char in number).split()
 print([int(val) for val in values])
->>>>>>> e3895048c19f675f6e5a1a6f1b4098a3f8c9c3ac
