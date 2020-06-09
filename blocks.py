@@ -8,5 +8,12 @@ age = int(input("What is your age, {0} ".format(name)))
 
 if age >= 18: 
   print("Congratulations {}, you can vote for the lesser of two evils".format(name))
+  print("Please put an X in the box")
 else:
   print("Sorry {}, you're going to have to wait ".format(name) + str(18 - age) + " more years to throw away your vote")
+
+if age < 18:
+    print("Sorry {}, you're going to have to wait ".format(name) + str(18 - age) + " more years to throw away your vote")
+else:
+  print("Congratulations {}, you can vote for the lesser of two evils".format(name))
+  print("Please put an X in the box")
